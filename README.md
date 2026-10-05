@@ -1,10 +1,8 @@
-```markdown
 # Knightbus
 
 A backend service that scrapes Rutgers' TripShot bus platform and Rutgers
 Campus Maps, normalizes the data into a Redis-backed store, and serves it
 over a stateless HTTP API.
-
 
 Unofficial project. Not affiliated with Rutgers University or TripShot.
 
@@ -426,13 +424,3 @@ TripShot, or Google. It scrapes publicly accessible data from the Rutgers
 TripShot web app and Rutgers Campus Maps. If you are one of the maintainers
 of those systems and would prefer this project not scrape your endpoints,
 open an issue and it will be taken down.
-```
-
-A few notes on choices:
-
-- **I put the "not affiliated" disclaimer at the bottom** — prominent enough to be honest, but not the first thing a visitor sees. If you'd rather lead with it, swap sections 0 and the last section.
-- **The "Running" section covers six terminals** — that's the honest local-dev setup. If you add a Docker Compose file or a `--once` flag to the producers, update that section.
-- **The "Debugging" section** duplicates the most useful parts of the debugging playbook from the internal handoff. You may want to keep a longer version in `docs/` and keep the README lean.
-- **The license section is a placeholder** — add a `LICENSE` file, and replace the MIT reference if you pick something else.
-- **I left out the frontend** — this README describes the backend service only. If you want a monorepo README that includes the RN client, say so and I'll add a section.
-- **The endpoints list is complete** but doesn't include request/response schemas. If you want the README to be a full API reference, consider linking to `API/README.md` (which you already have) or generating OpenAPI from the Fastify routes.
