@@ -410,13 +410,6 @@ things to know:
 
 ---
 
-## License
-
-[MIT](LICENSE) — or whichever license you choose. Add a `LICENSE` file to
-the repo root.
-
----
-
 ## Disclaimer
 
 This project is unofficial and not affiliated with Rutgers University,
