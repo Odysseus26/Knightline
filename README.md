@@ -1,4 +1,4 @@
-# Knightbus
+# Knightline
 
 A backend service that scrapes Rutgers' TripShot bus platform and Rutgers
 Campus Maps, normalizes the data into a Redis-backed store, and serves it
